@@ -1,0 +1,22 @@
+<head>
+  <title>Signup</title>
+  <link rel="stylesheet" href="/public/css/style.css" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<%- include('../partials/header') -%>
+
+<div style="height: 475px; top: 58%;" class="loginbox">
+  <img src="/public/avatar.png" class="avatar">
+  <h1>Register Here</h1>
+  <form action="/signup" method="POST">
+      <p>Username</p>
+      <input name="name" id="name" type="text" placeholder="Enter Username">
+      <p>E-mail</p>
+      <input name="email" id="email" type="text" placeholder="Enter E-mail">
+      <p>Password</p>
+      <input name="password" id="password" type="password" placeholder="Enter Password">
+      <p>Confirm Password</p>
+      <input name="confirm_password" id="confirm_password" type="password" placeholder="Confirm Password">
+      <input type="submit" value="Register">
+  </form>
+</div>

@@ -1,0 +1,30 @@
+<head>
+    <link rel="stylesheet" href="/public/css/filterForm.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<form >
+    <ul class="list-unstyled components">
+        <li>
+            <input name="name" id="name" type="text" placeholder="Username">
+        </li>
+        <li>
+            <input name="country" id="country" type="text" placeholder="country">
+        </li>
+        <li>
+            <input name="city" id="city" type="text" placeholder="city">
+        </li>
+        <li>
+            <input name="zipcode" id="zipcode" type="text" placeholder="zipcode">
+        </li>
+        <li>
+            <h3>Status</h3>
+            <div class="radioLeft">
+                <input checked="checked" style="text-align:left; width: 20px;" name="CalendarType" value="1" type="radio"><b>Person </b>(False) <br>
+                 <input checked="checked"  style="text-align:left; width: 20px;" name="CalendarType" value="2" type="radio"><b>Event </b>(False) <br>
+                 <input checked="checked"  style="text-align:left; width: 20px;"  name="CalendarType" value="3" type="radio"><b>Release</b>(False) <br>
+              </div>
+        </li>
+        <input type="submit" value="Apply">
+    </ul>
+</form>
